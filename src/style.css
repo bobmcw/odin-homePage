@@ -1,8 +1,17 @@
 .bluebg{
-    background-image: linear-gradient(155deg,#08415C 70%, #FFFFFF calc(70% + 2px));
+    background-image: linear-gradient(155deg,#08415C 50%, #FFFFFF calc(50% + 2px));
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 65vh;
+    height: 100vh;
+    z-index: -1;
+}
+.myImg{
+    width: 80vw;
+    margin: 1rem;
+}
+.about{
+    display: flex;
+    justify-content: center;
 }
