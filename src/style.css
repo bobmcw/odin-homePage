@@ -26,7 +26,8 @@
 }
 .myWork{
     display: grid;    
-    grid-template-columns: minmax(400px,1fr);
+    grid-template-columns: minmax(300px,1fr);
+    place-items: center;
 }
 .icons > *{
     width: 2rem;
@@ -36,5 +37,34 @@
     display: flex;
     flex-direction: row;
     width: 40vw;
+    justify-content: space-between;
+}
+.card{
+    max-width: 300px;
+    box-shadow: -2px 5px 10px gray;
+    height: fit-content;
+}
+.card > .description{
+    padding: 2rem;
+    padding-top: 0;
+}
+.card > .screenshot {
+    padding: 3rem;
+    height: 150px;
+    background-color: lightblue;
+}
+.card > .screenshot > p {
+    color: white;
+    font-size: 2rem;
+    
+}
+.card > .description > .projectTitle > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.card > .description > .projectTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
