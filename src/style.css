@@ -43,6 +43,7 @@
     max-width: 300px;
     box-shadow: -2px 5px 10px gray;
     height: fit-content;
+    margin: 1rem;
 }
 .card > .description{
     padding: 2rem;
