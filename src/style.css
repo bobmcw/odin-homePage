@@ -26,3 +26,13 @@
 .about > h1{
     font-weight: normal;
 }
+.icons > *{
+    width: 2rem;
+    height: 2rem;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    justify-content: space-between;
+}
