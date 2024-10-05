@@ -17,14 +17,15 @@
     align-items: center;
     flex-direction: column;
 }
-.about > *{
+*{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
 }
-.about > h1{
-    font-weight: normal;
+.myWork{
+    display: grid;    
+    grid-template-columns: minmax(400px,1fr);
 }
 .icons > *{
     width: 2rem;
