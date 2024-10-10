@@ -103,3 +103,9 @@ footer > *{
 footer > .icons{
     margin: auto;
 }
+
+@media (min-width: 850px) {
+    .myWork{
+        margin: 1rem;
+    } 
+}
