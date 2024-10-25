@@ -92,7 +92,7 @@ footer{
     flex-direction: row;
     background-color: #08415C;
 }
-footer > img{
+footer > .imgContainer > img{
     display: none;
 }
 footer > .footerText{
@@ -134,10 +134,10 @@ footer > .footerText> .icons{
         width: 25vw;
     }
     .aboutText{
-        height: 40vh;
-        max-height: 1000px;
+        height: min-content;
+        max-height: 400px;
         box-shadow: 5px 15px 15px lightgray;
-        font-size: 2.5vh;
+        font-size: 2vh;
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -150,7 +150,8 @@ footer > .footerText> .icons{
         text-align: left;
     }
     .aboutText > p{
-        height: 100%;
+        display: flex;
+        flex-grow: 1;
     }
     .about > .aboutText> .icons {
         margin: 15px;
