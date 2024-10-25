@@ -120,7 +120,67 @@ footer > .footerText> .icons{
     margin: auto;
 }
 /* tablet */
-@media (min-width: 850px) {
+@media (min-width: 944px) and (max-width: 1199px) {
+    .myWork{
+        margin: 1rem;
+        grid-template-columns: repeat( auto-fit, minmax(400px,1fr));
+    } 
+    .about{
+        margin: 1.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .about > .myImg{
+        width: 25vw;
+    }
+    .aboutText{
+        height: min-content;
+        max-height: 400px;
+        box-shadow: 5px 15px 15px lightgray;
+        font-size: 2vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        transform: translate(-5vw);
+        z-index: -1;
+        padding-left: 5vw;
+    }
+    .aboutText > h1{
+        align-self: flex-start;
+        text-align: left;
+    }
+    .aboutText > p{
+        display: flex;
+        flex-grow: 1;
+    }
+    .about > .aboutText> .icons {
+        margin: 15px;
+        width: min-content;
+        gap: 25px;
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+    footer {
+        padding: 5vw;
+    }
+    footer > .footerText > .icons {
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    footer > .imgContainer{
+        align-self: center;
+        width: 100%;
+    }
+    footer >  .imgContainer> img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    footer > .footerText{
+        width: 40%;
+    }
+}
+@media (min-width: 1200px){
     .myWork{
         margin: 1rem;
         grid-template-columns: repeat( auto-fit, minmax(400px,1fr));
