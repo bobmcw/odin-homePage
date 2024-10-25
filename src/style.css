@@ -88,22 +88,35 @@ body{
     width: 100vw;
 }
 footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #08415C;
+}
+footer > img{
+    display: none;
+}
+footer > .footerText{
+    width: 100%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    background-color: #08415C;
+    align-items: flex-start;
     color: white;
 }
-footer > h4{
+footer > .footerText> h4{
+    width: 100%;
+    text-align: left;
     font-weight: bold;
     font-size: 2rem;
     margin: auto;
 }
-footer > *{
-    
+footer > .footerText > *{
     font-family: "Playfair Display", serif;
 }
-footer > .icons{
+footer > .footerText > p{
+    max-width: 300px;
+}
+footer > .footerText> .icons{
     margin: auto;
 }
 /* tablet */
