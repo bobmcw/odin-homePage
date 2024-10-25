@@ -123,7 +123,7 @@ footer > .icons{
     .aboutText{
         height: 40vh;
         max-height: 1000px;
-        box-shadow: 10px 10px 10px black;
+        box-shadow: 5px 15px 15px lightgray;
         font-size: 1.5rem;
         display: flex;
         flex-direction: column;
