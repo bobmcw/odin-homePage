@@ -106,18 +106,44 @@ footer > *{
 footer > .icons{
     margin: auto;
 }
-
+/* tablet */
 @media (min-width: 850px) {
     .myWork{
         margin: 1rem;
         grid-template-columns: repeat( auto-fit, minmax(400px,1fr));
     } 
     .about{
+        margin: 1.5rem;
         display: flex;
         flex-direction: row;
     }
+    .about > .myImg{
+        width: 25vw;
+    }
     .aboutText{
+        height: 40vh;
+        max-height: 1000px;
+        box-shadow: 10px 10px 10px black;
+        font-size: 1.5rem;
         display: flex;
         flex-direction: column;
+        background-color: white;
+        transform: translate(-5vw);
+        z-index: -1;
+        padding-left: 5vw;
+    }
+    .aboutText > h1{
+        align-self: flex-start;
+        text-align: left;
+    }
+    .aboutText > p{
+        height: 100%;
+    }
+    .about > .aboutText> .icons {
+        margin: 15px;
+        width: min-content;
+        gap: 25px;
+        align-self: flex-end;
+        justify-self: flex-end;
     }
 }
