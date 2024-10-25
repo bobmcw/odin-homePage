@@ -13,13 +13,16 @@
     margin: 1rem;
     margin-bottom: 0;
 }
-.about{
+.about, .aboutText{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.about > h1{
+.about > .aboutText > h1{
     font-weight: bold;
+}
+.aboutText{
+    padding: 0.5rem;
 }
 *{
     font-family: "Playfair Display", serif;
@@ -109,4 +112,12 @@ footer > .icons{
         margin: 1rem;
         grid-template-columns: repeat( auto-fit, minmax(400px,1fr));
     } 
+    .about{
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+    }
 }
