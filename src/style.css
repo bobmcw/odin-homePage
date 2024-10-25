@@ -159,4 +159,23 @@ footer > .footerText> .icons{
         align-self: flex-end;
         justify-self: flex-end;
     }
+    footer {
+        padding: 5vw;
+    }
+    footer > .footerText > .icons {
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    footer > .imgContainer{
+        align-self: center;
+        width: 100%;
+    }
+    footer >  .imgContainer> img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    footer > .footerText{
+        width: 40%;
+    }
 }
