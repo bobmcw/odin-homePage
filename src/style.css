@@ -223,6 +223,7 @@ footer > .footerText> .icons{
         justify-self: flex-end;
     }
     footer {
+        max-height: 500px;
         padding: 5vw;
     }
     footer > .footerText > .icons {
