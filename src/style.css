@@ -120,7 +120,7 @@ footer > .footerText> .icons{
     margin: auto;
 }
 /* tablet */
-@media (min-width: 944px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 1199px) {
     .myWork{
         margin: 1rem;
         grid-template-columns: repeat( auto-fit, minmax(400px,1fr));
