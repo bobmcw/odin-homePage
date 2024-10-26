@@ -131,17 +131,17 @@ footer > .footerText> .icons{
         flex-direction: row;
     }
     .about > .myImg{
-        width: 25vw;
+        width: 50vw;
     }
     .aboutText{
-        height: min-content;
-        max-height: 400px;
+        width: 80vw;
+        height: 50vh;
+        max-height: 1000px;
         box-shadow: 5px 15px 15px lightgray;
-        font-size: 2vh;
+        font-size: 1.5vh;
         display: flex;
         flex-direction: column;
         background-color: white;
-        transform: translate(-5vw);
         z-index: -1;
         padding-left: 5vw;
     }
@@ -150,6 +150,8 @@ footer > .footerText> .icons{
         text-align: left;
     }
     .aboutText > p{
+        align-self: flex-start;
+        max-width: 300px;
         display: flex;
         flex-grow: 1;
     }
@@ -157,7 +159,7 @@ footer > .footerText> .icons{
         margin: 15px;
         width: min-content;
         gap: 25px;
-        align-self: flex-end;
+        align-self: flex-start;
         justify-self: flex-end;
     }
     footer {
